@@ -1,0 +1,7 @@
+Self-test performed against the analysed CS7T-14C026-ED sample:
+- extract_splash.py: PASS (400x198, 79,200 pixels)
+- encode_splash.py: PASS (RLE round-trip verified)
+- patch_ed.py: PASS (CRC32, trailing CRC16, pointers, frame bytes, RLE round-trip)
+- Python syntax compilation: PASS
+
+No Ford firmware is included in this repository package.
