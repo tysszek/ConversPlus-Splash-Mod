@@ -180,3 +180,15 @@ Niniejsze repozytorium nie jest projektem Ford Motor Company i nie jest przez Fo
 ## Licencja
 
 Kod narzędzi w tym repozytorium udostępniany jest na licencji MIT. Firmware, logotypy oraz inne zasoby należą do ich odpowiednich właścicieli i nie są częścią licencji tego repozytorium.
+
+
+## Polskie menu
+
+Aktualny opis i audyt wersji V5.3.3 znajduje się w [docs/menu-label-patch-v5-3-3.md](docs/menu-label-patch-v5-3-3.md). Skrypty odtworzeniowe są dostępne w katalogu tools/:
+
+- apply_menu_labels_v53.py
+- build_menu_labels_v531_physical_fix.py
+- apply_theme_labels_v533.py
+- apply_ed_phone_fix_v53.py
+
+Repozytorium nadal nie zawiera binarnego firmware Forda; pracuj na własnych, zweryfikowanych plikach VBF.
