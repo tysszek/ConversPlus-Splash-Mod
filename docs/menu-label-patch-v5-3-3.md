@@ -37,15 +37,15 @@ Skrypty są przypięte do konkretnych baz SHA-256 i odmawiają pracy na innym ob
 Dla CD:
 
 ~~~bash
-python tools/build_menu_labels_v531_physical_fix.py   CS7T-14C026-CD_V5_2.vbf   CS7T-14C026-CD_V5_3_2.vbf
+python tools/build_menu_labels_v531_physical_fix.py CS7T-14C026-CD_V5_2.vbf CS7T-14C026-CD_V5_3_2.vbf
 
-python tools/apply_theme_labels_v533.py   CS7T-14C026-CD_V5_3_2.vbf   CS7T-14C026-CD_V5_3_3.vbf
+python tools/apply_theme_labels_v533.py CS7T-14C026-CD_V5_3_2.vbf CS7T-14C026-CD_V5_3_3.vbf
 ~~~
 
 Dla ED:
 
 ~~~bash
-python tools/apply_ed_phone_fix_v53.py   CS7T-14C026-ED_BAZA.vbf   CS7T-14C026-ED_V5_3.vbf
+python tools/apply_ed_phone_fix_v53.py CS7T-14C026-ED_BAZA.vbf CS7T-14C026-ED_V5_3.vbf
 ~~~
 
 Pierwszy skrypt CD zawiera również wcześniejsze zmiany V5.3: menu główne, nagłówki, „Tempomat” oraz fizycznie potwierdzone wskaźniki nagłówków. Skrypt ED zmienia „Dokladnie” na „przychodzi”, zachowując rozmiar zasobu przez skrócenie sąsiedniego „Akcept.” do „Akcept”.
@@ -57,7 +57,7 @@ Pierwszy skrypt CD zawiera również wcześniejsze zmiany V5.3: menu główne, n
 | CS7T-14C026-CD V5.3.3 | 212ef4f577a5acdce4ab276b9daff3f057647dc7b5317f437d09586ef4584756 | DA3C | 449BB259 |
 | CS7T-14C026-ED V5.3 | c283d7ae243bbbaba4f27ed163c70b8bd9e29888f878507dadebddf1336f2568 | 9A13 | 980FC989 |
 | 7M2T-14C025-AA bez zmian | 61d445cbee401500a132b1ea904a398563c6a0a385142158ca646c00e1cbc2ab | — | — |
-| CD V5.2 do odzyskiwania | 21058ce5f64949e7926e2225eda00c06b43e5308ecd77a651f5ca0f96a631d49 | CAB2 | DF611AEB |
+| CD V5.2 do odzyskiwania | 21058ce5f64949e7926e2225eda00c06b43e5308ecd77a651f5ca0f96a631d49 | 4249 | 5D488907 |\n| CD V5.3 po pierwszym patchu | b0b4d596c668a98e61c8ddb44626b5a4a94da4aee835bf1a937b566ed411cfb9 | CAB2 | DF611AEB |\n| CD V5.3.2, wejście V5.3.3 | 687a85f70138d247db171b01c0262a4cb3a544313d77680e51dbab4bdd20e45a | 13C3 | 1430D9EE |
 | ED baza do odzyskiwania | 6b8a0a3d72338014570e4493ffb4749299c0f18dcc40a6754f229ec92c7ccab2 | 9A13 | 980FC989 |
 
 ## Audyt V5.3.3
